@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.kalokulator {
+  width: 250px;
+  background-color: rgb(204, 198, 198);
+  margin: 20% auto 20% auto;
+  padding: 7px;
+  border-radius: 25px;
+}
+
+#layar {
+  width: 250px;
+  height: 50px;
+  box-sizing: border-box;
+  text-align: right;
+  padding: 5px 5px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.tombolKalkulator {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.tombol {
+  display: flex;
+  width: 25%;
+  font-size: 20px;
+  justify-content: center;
+  padding-top: 14px;
+  cursor: pointer;
+  height: 55px;
+  border-radius: 60px;
+  box-sizing: border-box;
+  transition: ease-out 0.2s;
+}
+
+#nol {
+  display: flex;
+  flex: 3;
+}
+
+#equal {
+  background-color: orange;
+}
+
+#equal:hover {
+  background-color: palegoldenrod;
+  transition: ease-out 0.2s;
+}
+.tombol:hover {
+  background-color: orangered;
+}
